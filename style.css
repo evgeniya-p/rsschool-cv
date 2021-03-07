@@ -7,40 +7,74 @@ body {
   font-family: sans-serif;
 }
 
-article {
-  width: 1280px;
+.content {
   margin: 0 auto;
-  text-align: center;
-}
-h1 {
-  padding-top: 30px;
+  width: 700px;
+  background-image: url(fon.jpg);
+  background-size: 100%;
 }
 
-img {
-  padding-top: 20px;
-  width: 150px;
-  display: block;
-  margin: 0 auto;
+header {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+.photo {
+  width: 170px;
+}
+
+.top {
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .contacts {
-  padding-top: 20px;
+  margin-top: 10px;
   font-size: 14px;
-  font-style: italic;
-  padding-bottom: 40px;
 }
 
-.info {
-  width: 700px;
-  display: block;
-  margin: 0 auto;
-  padding: 10px 0px 20px 0px;
+.list {
+  list-style: none;
 }
 
-.skills {
-  padding: 10px 0px 20px 0px;
+main {
+  margin-top: 30px;
 }
 
-.eng {
-  padding: 10px 0px 20px 0px;
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  width: 170px;
+  border-right: 1px solid black;
+  padding: 15px 0px;
+}
+
+.right {
+  width: 450px;
+  margin-left: 30px;
+  padding: 15px 0px;
+}
+
+.code {
+  font-family: sans-serif;
+}
+
+footer {
+  display: flex;
+  margin-top: 30px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.links {
+  margin-left: 20px;
+  line-height: 1.5;
 }

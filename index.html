@@ -1,23 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
     <title>CV</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<article>
-<h1>Evgeniya Petrova</h1>
-<img src="IMG_9665-1.png" alt="photo">
-<p class="contacts" >Contacts: <a href="https://t.me/ennkaa">telegram</a></p>
-<h3>About me:</h3>
-<p class="info">I graduated from BSTU and now work as a literary editor. At the uni we were taught the basics of html and css and this interested me. Website development, like text editing, requires patience and perseverance. I have these qualities and I am ready to receive new knowledge.</p>
-<h3>Skills:</h3>
-<p class="skills">html and css</p>
-<h3>English level:</h3>
-<p class="eng">A2-B1</p>   
-</article>
-</body>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+  <div class="content">
+    <header>
+      <figure>
+       <img class="photo" src="IMG_9665-1.png" alt="photo"/>
+      </figure>  
+     <div class="top" >
+      <h1>Evgeniya Petrova</h1>
+     <div class="contacts"><p>Contacts:</p>
+  <ul class="list"> 
+  <li><a href="https://t.me/ennkaa" target="_blank">telegram</a></li>
+  <li> email: pevg1999@gmail.com</li>
+</ul>
+</div> 
+      </div>
+    </header>
+    <main>     
+   <section>
+     <div class="left">
+      <h3>About me</h3>
+     </div>
+     <div class="right">
+      <p>
+        I graduated from BSTU and now work as a literature editor. <br> I am also interested in design, I can create posters and banners. At the uni we were taught the basics of html and css and this interested me. Now I want to change the field of activity and try myself in website development
+      </p>
+     </div>
+   </section>
+   <section>
+    <div class="left">
+     <h3>Education</h3>
+    </div>
+    <div class="right">
+     <p>
+      BSTU, Publishing
+     </p>
+    </div>
+  </section>
+  <section>
+    <div class="left">
+     <h3>Skills</h3>
+    </div>
+    <div class="right">
+     <ul class="list">
+    <li> HTML and CSS</li>
+     <li>JavaScript</li>
+     <li> Adobe Photoshop</li>
+     <li>Adobe Illustrator</li>
+     </ul>
+    </div>
+  </section>
+  <section>
+    <div class="left">
+     <h3>Code examples</h3>
+    </div>
+    <div class="right">
+    <code class="code" >
+      function removeEveryOther(arr){ <br>
+        return arr.filter((_,idx) => idx % 2 === 0) <br>
+        }
+    </code>
+    </div>
+  </section>
+  <section>
+    <div class="left">
+     <h3>English level</h3>
+    </div>
+    <div class="right">
+     <p>
+      B1
+     </p>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <div>
+      <figure>
+        <img class="logo" src="rs_school_js.svg" alt="logo"/>
+       </figure> 
+    </div>
+     <div>
+       <p class="links"> <a href="https://rs.school/js/" target="_blank">  Курс «JavaScript/Front-end» </a> <br>
+        GitHub: <a href="https://github.com/evgeniya-p" target="_blank"> github.com/evgeniya-p </a>  </p>
+     </div>
+  </footer>
+  </div>
+  </body>
 </html>
